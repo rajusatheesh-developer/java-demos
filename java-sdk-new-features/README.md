@@ -20,4 +20,9 @@ Java New Features
 - LocalVariable TypeInference : At compile time it will iner Type
 - Switch Expressions
 - Text Blocks
-- Records 
+- Records
+- Sealed Classes : Close Inheritance heirarchy
+   - Interfaces, Class
+   - Sealed, final, non-sealed
+   - Using permits
+       - same module , same package with unnamed module
