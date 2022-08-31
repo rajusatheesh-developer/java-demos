@@ -1,8 +1,9 @@
 # NO GC Coding Tips
 
-- Singleton objects
-- Flyweight Pattern 
-- Primitive Collections : Trave etc
+## Singleton objects
+## Flyweight Pattern 
+## Cahing 
+   - Object Reuse
 ## Strings
 - String Concatenation : use String Builder 
 - 8-bit byte strings :
@@ -73,6 +74,7 @@
   - LinkedList is faster for inserting data
 - Sizing collections
    Sizing of collections can have a large impact on performance: either slowing down the garbage collector if the collection is too large or causing lots of copying    and resizing if it is too small.
+-Primitive Collections : Trave etc   
 ## Logs ( Guarding Memory allocation)
     - Always check logger is enabled or not
     - Log neccessary information and avoid unnessary information
