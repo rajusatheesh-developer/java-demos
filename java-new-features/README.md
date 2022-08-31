@@ -17,3 +17,7 @@ Java New Features
    - Files.writeString()
 - Helpful NullpointerExceptions
    - Details about null pointer exception
+- LocalVariable TypeInference : At compile time it will iner Type
+- Switch Expressions
+- Text Blocks
+- Records 
