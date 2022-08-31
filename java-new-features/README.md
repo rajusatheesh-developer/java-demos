@@ -1,0 +1,17 @@
+Java New Features 
+- Collections
+   - List.copyOf() : Immutable List 
+   - Set.CopyOf() : Immutab;le Set
+   - Map.copyOf() : Immutable Map
+- Functional Interfaces
+   - Predicate.not
+   - Predicate.negate() 
+- String Utility Methods
+   - strip()
+   - stripLeading()
+   - stripTrailing()
+   - formatted()
+   - transform()
+- File API
+   - Files.readString()
+   - Files.writeString()
