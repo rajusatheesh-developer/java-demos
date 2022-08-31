@@ -14,6 +14,12 @@
       - ThreadLocal
       - Immutable Objects
       - Using Locks
+    - Queues
+      - Synchronous Queue ( Synchronous queue)
+      - ArrayBlocking Queue ( Bunded Queue)
+      - LinkedBlocking Queue ( Unbounded)
+    - False Sharing/ Vsibility
+      - <b>volatile</b> , <b>Atomic Variables </b> 
 ## Cahing 
    - Object Reuse
 ## Strings
