@@ -25,6 +25,14 @@
         - Default space is 8 and it occupies 10% of yound generation
     
 - TLAB and Its Sizing
+   - By default, the size of a TLAB is based on three factors: the number of threads in the application, the size of eden, and the allocation rate of threads.
+   - By default, TLABs are enabled; they can be disabled by specifying 
+     ```````````
+     -XX:-UseTLAB
+     -XX:+PrintTLAB
+     -XX:TLABSize=N
+     -XX:-ResizeTLAB (the default for that flag is true)
+     `````````
 - G1 GC region sizes
 - G1 GC Homongous objects    
 
