@@ -84,7 +84,7 @@
   - Streams are Lazy Traversal 
 ## Object Serialization
   - Key classes are Serializable , Externalizable
-  - Transient Fields
+  - Transient Fields : Makes serilization less cost
   - Compressed Objects
   - Override default Serialization
     
