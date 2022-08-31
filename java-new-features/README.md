@@ -15,3 +15,5 @@ Java New Features
 - File API
    - Files.readString()
    - Files.writeString()
+- Helpful NullpointerExceptions
+   - Details about null pointer exception
