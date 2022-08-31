@@ -2,6 +2,18 @@
 
 ## Singleton objects
 ## Flyweight Pattern 
+## Threads
+  - Threads and Hardware
+     - Doubling cores can improve performance
+     - Doubling hyperthreading cannot improve performance
+   - ThreadPoolSize
+   - ForkJoinPool
+   - Synchronization vs Lock
+   - Monitoring Locks
+   - Avoiding Synchronization
+      - ThreadLocal
+      - Immutable Objects
+      - Using Locks
 ## Cahing 
    - Object Reuse
 ## Strings
