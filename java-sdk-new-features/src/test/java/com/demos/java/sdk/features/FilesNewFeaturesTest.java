@@ -42,4 +42,18 @@ public class FilesNewFeaturesTest {
         }
         Assertions.assertEquals(expectedContent, result);
     }
+
+    @Test
+    void test_writeString_and_textblocks_method() throws IOException {
+        var lines = """
+                Satheesh
+                Raju
+                Siva
+                Vani
+                """;
+        var fileName = filesNewFeatures.write(lines);
+        var result = filesNewFeatures.read(fileName);
+        Assertions.assertEquals(lines, result);
+
+    }
 }
