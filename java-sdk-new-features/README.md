@@ -30,3 +30,9 @@ Java New Features
       - with sealed classes
       - What if class changes
   - guarded pattern
+- Records
+- Sealed Classes : Close Inheritance heirarchy
+   - Interfaces, Class
+   - Sealed, final, non-sealed
+   - Using permits
+       - same module , same package with unnamed module
