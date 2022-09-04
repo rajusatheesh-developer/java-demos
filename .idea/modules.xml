@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-benchmark/java-benchmark.iml" filepath="$PROJECT_DIR$/java-benchmark/java-benchmark.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-gc/java-gc.iml" filepath="$PROJECT_DIR$/java-gc/java-gc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-installation/java-installation.iml" filepath="$PROJECT_DIR$/java-installation/java-installation.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-jvm/java-jvm.iml" filepath="$PROJECT_DIR$/java-jvm/java-jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-nio/java-nio.iml" filepath="$PROJECT_DIR$/java-nio/java-nio.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-sdk-new-features/java-sdk-new-features.iml" filepath="$PROJECT_DIR$/java-sdk-new-features/java-sdk-new-features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-threads/java-threads.iml" filepath="$PROJECT_DIR$/java-threads/java-threads.iml" />
     </modules>
   </component>
 </project>

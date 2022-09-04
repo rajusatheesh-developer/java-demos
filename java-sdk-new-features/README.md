@@ -20,4 +20,13 @@ Java New Features
 - LocalVariable TypeInference : At compile time it will iner Type
 - Switch Expressions
 - Text Blocks
-- Records 
+- Records
+- Pattern Matching
+  - Pattern matching with instance of
+  - null matching
+  - Type matching
+  - Dominance 
+  - Completeness 
+      - with sealed classes
+      - What if class changes
+  - guarded pattern

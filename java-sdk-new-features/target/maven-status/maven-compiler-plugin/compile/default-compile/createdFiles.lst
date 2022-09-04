@@ -1,0 +1,10 @@
+com\demos\java\sdk\features\SwitchExpressions.class
+com\demos\java\sdk\features\traffic\GreenLight.class
+com\demos\java\sdk\features\FunctionalNewFeatures.class
+com\demos\java\sdk\features\traffic\RedLight.class
+com\demos\java\sdk\features\StringsNewFeatures.class
+com\demos\java\sdk\features\FilesNewFeatures.class
+com\demos\java\sdk\features\traffic\YellowLight.class
+com\demos\java\sdk\features\traffic\TrafficLight.class
+com\demos\java\sdk\features\DayOfWeek.class
+com\demos\java\sdk\features\LocalVariableInference.class

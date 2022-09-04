@@ -7,11 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java-threads" />
         <module name="java-sdk-new-features" />
+        <module name="java-benchmark" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java-sdk-new-features" target="17" />
+      <module name="java-benchmark" target="17" />
+      <module name="java-sdk-new-features" target="18" />
+      <module name="java-threads" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="--enable-preview" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java-benchmark" options="" />
+      <module name="java-sdk-new-features" options="" />
+      <module name="java-threads" options="" />
+    </option>
   </component>
 </project>
