@@ -34,7 +34,7 @@ For fine-grained control of transactions in JDBC, use a default TRANSACTION_READ
 
 Applications that process large amounts of data from a query should consider changing the fetch size of the data.
 
-A trade-off exists between loading too much data in the application (putting pressure on the garbage collector) and making frequent database calls to retrieve a set of data
+com.demos.java.absics.A trade-off exists between loading too much data in the application (putting pressure on the garbage collector) and making frequent database calls to retrieve a set of data
 
 
 ``````````````````

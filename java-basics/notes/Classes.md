@@ -1,0 +1,34 @@
+# Class
+ - Source file can have at most one public type 
+ - Top Level Class 
+   - Can be 
+      - abstract
+      - enum
+      - annotation
+      - interface
+      - class ( can have final modifier )
+   - Can have access modifiers
+     - public 
+     - package-private
+   - Contain
+     - static and instance fields
+     - static and instance methods
+     - static and instance initializers
+     - static and instance classes
+       - static classes are "nested" types
+       - instance classes are "inner" types
+   - which contain
+     - annotations are interfaces
+     - abstract class and enums are classes
+     - interfaces are abstract
+     - abstract things
+        - cannot be final
+        - can have abstract methods
+     - interfaces
+        - fields and types are public static final by default
+        - can have static and default methods 
+          
+# Nested Types 
+  - Access OuterName.InnerName
+  - can have private , protected , package-private , public modifiers
+  - Enclosing and inner classes have privileged access to all members
