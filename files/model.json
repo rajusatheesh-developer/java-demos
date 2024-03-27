@@ -1,0 +1,556 @@
+{
+  "metadata": {
+    "contentItemCount": 0,
+    "pagination": {
+      "offset": 0,
+      "limit": 0,
+      "itemCount": 0,
+      "total": 0,
+      "_links": {
+        "additionalProp1": {
+          "href": "string",
+          "hreflang": "string",
+          "title": "string",
+          "type": "string",
+          "deprecation": "string",
+          "profile": "string",
+          "name": "string",
+          "templated": true
+        },
+        "additionalProp2": {
+          "href": "string",
+          "hreflang": "string",
+          "title": "string",
+          "type": "string",
+          "deprecation": "string",
+          "profile": "string",
+          "name": "string",
+          "templated": true
+        },
+        "additionalProp3": {
+          "href": "string",
+          "hreflang": "string",
+          "title": "string",
+          "type": "string",
+          "deprecation": "string",
+          "profile": "string",
+          "name": "string",
+          "templated": true
+        }
+      }
+    },
+    "_links": {
+      "additionalProp1": {
+        "href": "string",
+        "hreflang": "string",
+        "title": "string",
+        "type": "string",
+        "deprecation": "string",
+        "profile": "string",
+        "name": "string",
+        "templated": true
+      },
+      "additionalProp2": {
+        "href": "string",
+        "hreflang": "string",
+        "title": "string",
+        "type": "string",
+        "deprecation": "string",
+        "profile": "string",
+        "name": "string",
+        "templated": true
+      },
+      "additionalProp3": {
+        "href": "string",
+        "hreflang": "string",
+        "title": "string",
+        "type": "string",
+        "deprecation": "string",
+        "profile": "string",
+        "name": "string",
+        "templated": true
+      }
+    }
+  },
+  "content": [
+    {
+      "contactId": "string",
+      "companyContactType": {
+        "type": "string",
+        "name": "string",
+        "_links": {
+          "additionalProp1": {
+            "href": "string",
+            "hreflang": "string",
+            "title": "string",
+            "type": "string",
+            "deprecation": "string",
+            "profile": "string",
+            "name": "string",
+            "templated": true
+          },
+          "additionalProp2": {
+            "href": "string",
+            "hreflang": "string",
+            "title": "string",
+            "type": "string",
+            "deprecation": "string",
+            "profile": "string",
+            "name": "string",
+            "templated": true
+          },
+          "additionalProp3": {
+            "href": "string",
+            "hreflang": "string",
+            "title": "string",
+            "type": "string",
+            "deprecation": "string",
+            "profile": "string",
+            "name": "string",
+            "templated": true
+          }
+        }
+      },
+      "caid": "string",
+      "ueid": "string",
+      "weid": "string",
+      "firstName": "qGoJ.E,EdfVI58WKEb4im-mnBzRJ'U",
+      "middleName": "Yt4nSH2dIbS1,hqv,8S3fGQsVeeZG.",
+      "lastName": "ns9FtA2b5TSw ,mlTrXngvpODquwC,",
+      "preferredFirstName": "string",
+      "preferredLastName": "string",
+      "displayFirstName": "string",
+      "displayLastName": "string",
+      "authorizedSignatory": true,
+      "purchasingAuthority": true,
+      "signatoryTitle": "string",
+      "note": "string",
+      "codePhrase": "string",
+      "startDate": "2024-03-27",
+      "endDate": "2024-03-27",
+      "versionNumber": 0,
+      "responsibilities": [
+        {
+          "id": "string",
+          "name": "string",
+          "description": "string",
+          "_links": {
+            "additionalProp1": {
+              "href": "string",
+              "hreflang": "string",
+              "title": "string",
+              "type": "string",
+              "deprecation": "string",
+              "profile": "string",
+              "name": "string",
+              "templated": true
+            },
+            "additionalProp2": {
+              "href": "string",
+              "hreflang": "string",
+              "title": "string",
+              "type": "string",
+              "deprecation": "string",
+              "profile": "string",
+              "name": "string",
+              "templated": true
+            },
+            "additionalProp3": {
+              "href": "string",
+              "hreflang": "string",
+              "title": "string",
+              "type": "string",
+              "deprecation": "string",
+              "profile": "string",
+              "name": "string",
+              "templated": true
+            }
+          }
+        }
+      ],
+      "communication": {
+        "telecom": {
+          "additionalProp1": {
+            "id": "string",
+            "type": "MOBILE",
+            "countryCode": "106",
+            "cityCode": "7453",
+            "subscriber": "3153991",
+            "subscriberExtension": "9596319",
+            "usageType": "WORK",
+            "primary": true,
+            "correlationId": "string",
+            "versionNumber": 0,
+            "_links": {
+              "additionalProp1": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp2": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp3": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              }
+            }
+          },
+          "additionalProp2": {
+            "id": "string",
+            "type": "MOBILE",
+            "countryCode": "106",
+            "cityCode": "7453",
+            "subscriber": "3153991",
+            "subscriberExtension": "9596319",
+            "usageType": "WORK",
+            "primary": true,
+            "correlationId": "string",
+            "versionNumber": 0,
+            "_links": {
+              "additionalProp1": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp2": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp3": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              }
+            }
+          },
+          "additionalProp3": {
+            "id": "string",
+            "type": "MOBILE",
+            "countryCode": "106",
+            "cityCode": "7453",
+            "subscriber": "3153991",
+            "subscriberExtension": "9596319",
+            "usageType": "WORK",
+            "primary": true,
+            "correlationId": "string",
+            "versionNumber": 0,
+            "_links": {
+              "additionalProp1": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp2": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp3": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              }
+            }
+          }
+        },
+        "email": {
+          "additionalProp1": {
+            "id": "string",
+            "emailAddress": "a|ePNAKGKKDgIFW*'lr$}MIC0bLqZRr&p7*T0rJu_Sia4CE=TMN~uOYfKQz3n}sjtT~Eeh|XB65B%Qs~5.smRsB+l9h`JMpxw#PoQKx!W&dEm$|zSLV*Pczww`|fXl^b5/^v?/t_htKVkyT8&W.w4JB/MmRVJ?CRwQfldOdT^U!^P2R+1V#SqADR8~U2uvwpeZ4'B5/$T=vf72dGba/MXl}/g=eg.=hY7={iltz_s7d5WQ%znx{N2XxnQ`",
+            "providerName": "string",
+            "usageType": "WORK",
+            "primary": true,
+            "correlationId": "string",
+            "versionNumber": 0,
+            "_links": {
+              "additionalProp1": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp2": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp3": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              }
+            }
+          },
+          "additionalProp2": {
+            "id": "string",
+            "emailAddress": "a|ePNAKGKKDgIFW*'lr$}MIC0bLqZRr&p7*T0rJu_Sia4CE=TMN~uOYfKQz3n}sjtT~Eeh|XB65B%Qs~5.smRsB+l9h`JMpxw#PoQKx!W&dEm$|zSLV*Pczww`|fXl^b5/^v?/t_htKVkyT8&W.w4JB/MmRVJ?CRwQfldOdT^U!^P2R+1V#SqADR8~U2uvwpeZ4'B5/$T=vf72dGba/MXl}/g=eg.=hY7={iltz_s7d5WQ%znx{N2XxnQ`",
+            "providerName": "string",
+            "usageType": "WORK",
+            "primary": true,
+            "correlationId": "string",
+            "versionNumber": 0,
+            "_links": {
+              "additionalProp1": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp2": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp3": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              }
+            }
+          },
+          "additionalProp3": {
+            "id": "string",
+            "emailAddress": "a|ePNAKGKKDgIFW*'lr$}MIC0bLqZRr&p7*T0rJu_Sia4CE=TMN~uOYfKQz3n}sjtT~Eeh|XB65B%Qs~5.smRsB+l9h`JMpxw#PoQKx!W&dEm$|zSLV*Pczww`|fXl^b5/^v?/t_htKVkyT8&W.w4JB/MmRVJ?CRwQfldOdT^U!^P2R+1V#SqADR8~U2uvwpeZ4'B5/$T=vf72dGba/MXl}/g=eg.=hY7={iltz_s7d5WQ%znx{N2XxnQ`",
+            "providerName": "string",
+            "usageType": "WORK",
+            "primary": true,
+            "correlationId": "string",
+            "versionNumber": 0,
+            "_links": {
+              "additionalProp1": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp2": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              },
+              "additionalProp3": {
+                "href": "string",
+                "hreflang": "string",
+                "title": "string",
+                "type": "string",
+                "deprecation": "string",
+                "profile": "string",
+                "name": "string",
+                "templated": true
+              }
+            }
+          }
+        }
+      },
+      "defaultContact": true,
+      "replaceExistingMain": true,
+      "correlationId": "string",
+      "inviteSentDate": "2024-03-27",
+      "linkedUsersForWorkerContact": {
+        "userIds": [
+          "string"
+        ],
+        "workerId": "string",
+        "caid": "string"
+      },
+      "invitedByUser": "string",
+      "_links": {
+        "additionalProp1": {
+          "href": "string",
+          "hreflang": "string",
+          "title": "string",
+          "type": "string",
+          "deprecation": "string",
+          "profile": "string",
+          "name": "string",
+          "templated": true
+        },
+        "additionalProp2": {
+          "href": "string",
+          "hreflang": "string",
+          "title": "string",
+          "type": "string",
+          "deprecation": "string",
+          "profile": "string",
+          "name": "string",
+          "templated": true
+        },
+        "additionalProp3": {
+          "href": "string",
+          "hreflang": "string",
+          "title": "string",
+          "type": "string",
+          "deprecation": "string",
+          "profile": "string",
+          "name": "string",
+          "templated": true
+        }
+      }
+    }
+  ],
+  "errors": [
+    {
+      "code": "string",
+      "description": "string",
+      "resolution": "string",
+      "token": "string",
+      "field": "string",
+      "stacktrace": "string",
+      "additionalInfo": [
+        {}
+      ],
+      "severity": "ERROR",
+      "_links": {
+        "additionalProp1": {
+          "href": "string",
+          "hreflang": "string",
+          "title": "string",
+          "type": "string",
+          "deprecation": "string",
+          "profile": "string",
+          "name": "string",
+          "templated": true
+        },
+        "additionalProp2": {
+          "href": "string",
+          "hreflang": "string",
+          "title": "string",
+          "type": "string",
+          "deprecation": "string",
+          "profile": "string",
+          "name": "string",
+          "templated": true
+        },
+        "additionalProp3": {
+          "href": "string",
+          "hreflang": "string",
+          "title": "string",
+          "type": "string",
+          "deprecation": "string",
+          "profile": "string",
+          "name": "string",
+          "templated": true
+        }
+      }
+    }
+  ],
+  "_links": {
+    "additionalProp1": {
+      "href": "string",
+      "hreflang": "string",
+      "title": "string",
+      "type": "string",
+      "deprecation": "string",
+      "profile": "string",
+      "name": "string",
+      "templated": true
+    },
+    "additionalProp2": {
+      "href": "string",
+      "hreflang": "string",
+      "title": "string",
+      "type": "string",
+      "deprecation": "string",
+      "profile": "string",
+      "name": "string",
+      "templated": true
+    },
+    "additionalProp3": {
+      "href": "string",
+      "hreflang": "string",
+      "title": "string",
+      "type": "string",
+      "deprecation": "string",
+      "profile": "string",
+      "name": "string",
+      "templated": true
+    }
+  }
+}
