@@ -1,0 +1,32 @@
+"name":
+
+{                 "familyName": > lastName                 "givenName": > firstName             }
+,
+"purchasingAuthority": >purchasingAuthority
+"contactType" : "MAIN" or "GENERAL",       
+"responsibilities": [              
+
+{                  "name": "Payroll and related services"                 }
+,
+
+{                  "name": "Billing"                 }
+]
+"communications": [             
+
+{                     "type": "CELL", < telecom: type                     "usageType": "WORK", < telecom: usageType                     "dialCountry": "1", < telecom: countryCode                     "dialArea": "585", < telecom: cityCode                     "dialNumber": "8200004" < telecom: subscriber }
+,              
+
+{                     "type": "PHONE", < telecom: typey                     "usageType": "WORK", < telecom: usageType                     "dialArea": "585", < telecom: cityCode                     "dialNumber": "8200001" < telecom: subscriber                 }
+,           
+
+{                   "type": "PHONE", < telecom: type                     "usageType": "HOME", < telecom: usageType                     "dialArea": "585", < telecom: cityCode                     "dialNumber": "8200002" < telecom: subscriber                 }
+,
+
+{                   "type": "E_MAIL", < email                     "usageType": "HOME", < email: usageType                     "uri": "jbassett@paychex.com" < email: emailAddress                 }
+,
+
+{                   "type": "E_MAIL", < email                     "usageType": "WORK", < email: usageType                     "uri": "stacheapi+justinbassett@gmail.com" < email: emailAddress                 }
+]
+}
+
+ 
