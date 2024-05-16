@@ -1,0 +1,96 @@
+import static org.mockito.Mockito.*;
+import static org.junit.jupiter.api.Assertions.*;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import org.slf4j.Logger;
+import org.springframework.beans.factory.annotation.Value;
+
+public class JsonToXMLConverterServiceImplTest {
+
+    @Mock
+    private ServiceRouter serviceRouter;
+
+    @Value("${ddswipr.input.endpoint}")
+    private String inputEndpoint;
+
+    @InjectMocks
+    private JsonToXMLConverterServiceImpl jsonToXMLConverterService;
+
+    @BeforeEach
+    public void setup() {
+        MockitoAnnotations.openMocks(this);
+    }
+
+    @Test
+    public void testConvertDto_Success() throws Exception {
+        // Given
+        BatchSummaryRequest batchSummaryRequest = new BatchSummaryRequest();
+        batchSummaryRequest.setSomeData("Some data");
+
+        // Mock the serviceRouter's put method to return some response
+        when(serviceRouter.put(anyString(), anyString(), any(), any(), any(), any()))
+                .thenReturn("Response from API");
+
+        // When
+        String resultXml = jsonToXMLConverterService.convertDto(batchSummaryRequest);
+
+        // Then
+        assertNotNull(resultXml);
+        // Verify that the serviceRouter's put method was called with correct arguments
+        verify(serviceRouter).put(eq(inputEndpoint), anyString(), isNull(), eq("8748"), eq(String.class), any());
+    }
+
+    @Test
+    public void testConvertDto_ExceptionThrown() {
+        // Given
+        BatchSummaryRequest batchSummaryRequest = new BatchSummaryRequest();
+        batchSummaryRequest.setSomeData("Some data");
+
+        // Mock the serviceRouter's put method to throw an exception
+        when(serviceRouter.put(anyString(), anyString(), any(), any(), any(), any())).thenThrow(new RuntimeException("API call failed"));
+
+        // When/Then
+        assertThrows(RuntimeException.class, () -> jsonToXMLConverterService.convertDto(batchSummaryRequest));
+    }
+
+    @Test
+    public void testConvertDto_NullRequest() {
+        // When/Then
+        assertThrows(IllegalArgumentException.class, () -> jsonToXMLConverterService.convertDto(null));
+    }
+
+    @Test
+    public void testSendToInputAPI_Success() {
+        // Given
+        String xml = "<xml></xml>";
+
+        // Mock the serviceRouter's put method to return some response
+        when(serviceRouter.put(anyString(), anyString(), any(), any(), any(), any()))
+                .thenReturn("Response from API");
+
+        // When
+        jsonToXMLConverterService.sendToInputAPI(xml);
+
+        // Then
+        // Verify that the serviceRouter's put method was called with correct arguments
+        verify(serviceRouter).put(eq(inputEndpoint), eq(xml), isNull(), eq("8748"), eq(String.class), any());
+    }
+
+    @Test
+    public void testSendToInputAPI_ExceptionThrown() {
+        // Given
+        String xml = "<xml></xml>";
+
+        // Mock the serviceRouter's put method to throw an exception
+        when(serviceRouter.put(anyString(), anyString(), any(), any(), any(), any())).thenThrow(new RuntimeException("API call failed"));
+
+        // When/Then
+        assertThrows(RuntimeException.class, () -> jsonToXMLConverterService.sendToInputAPI(xml));
+    }
+}
